@@ -7,9 +7,6 @@ def main():
     for _ in range(t):
         n = int(input())
         p = list(map(int, input().split()))
-        
-        
-        
         s = list(map(int, input().split()))
         ok = True
         for i in range(1, n):
